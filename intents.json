@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you today?", "Hi there!"]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "How can I return my product?", "Refund please"],
+      "responses": ["Please share your order ID to initiate the refund process."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Have a great day!", "Bye! Come back soon."]
+    }
+  ]
+}
