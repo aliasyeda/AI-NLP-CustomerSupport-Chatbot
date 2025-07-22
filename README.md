@@ -6,7 +6,8 @@ This project is a smart AI-based chatbot designed for customer support using Nat
 
 It’s built using Python and libraries like NLTK, Scikit-learn, and Gradio to provide a simple and interactive interface for end users.
 
-✅ Key Features
+## ✅ Key Features
+
 Understands customer queries using NLP
 
 Provides relevant, automated responses
@@ -17,7 +18,8 @@ Pretrained model for fast response time
 
 Easily extendable with new intents and responses
 
-🧠 Technologies Used
+## 🧠 Technologies Used
+
 Python
 
 Natural Language Toolkit (NLTK)
@@ -30,7 +32,8 @@ Gradio (for UI)
 
 Pickle (to save model and vectorizer)
 
-📁 Project Structure
+## 📁 Project Structure
+
 intents.json – Contains the training data (user intents and responses)
 
 chatbot.py – NLP preprocessing and model training code
@@ -41,7 +44,8 @@ chatbot_model.pkl – Trained ML model (Multinomial Naive Bayes)
 
 app.py – Gradio web interface for the chatbot
 
-⚙️ How It Works
+## ⚙️ How It Works
+
 The chatbot is trained on predefined intents using intents.json.
 
 NLTK is used for text preprocessing like tokenization, stemming, and stopword removal.
@@ -54,7 +58,8 @@ The trained model and vectorizer are saved using pickle.
 
 app.py launches a Gradio interface where users can chat with the bot in real-time.
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
+
 Install required packages:
 
 pip install nltk scikit-learn gradio
@@ -75,14 +80,8 @@ python app.py
 
 Open the link shown in the terminal (e.g., http://127.0.0.1:7860) in your browser.
 
-🖼️ Screenshots to Submit
-Terminal running the chatbot (Gradio started)
+## ✍️ Author
 
-Chatbot interface open in browser
-
-Optional: Folder showing all files like chatbot.py, app.py, intents.json, .pkl files
-
-✍️ Author
 This project was created as part of an AI-based learning journey to explore how Natural Language Processing can be used in real-world applications like customer support chatbots.
 
 
