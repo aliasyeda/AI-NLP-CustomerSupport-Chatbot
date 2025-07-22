@@ -80,6 +80,15 @@ python app.py
 
 Open the link shown in the terminal (e.g., http://127.0.0.1:7860) in your browser.
 
+
+## 📸 Screenshots
+
+screenshot1.png – Terminal Output (app.py execution showing the local Gradio server link)
+
+screenshot2.png – Chatbot Interface opened in the browser (Gradio UI view)
+
+screenshot3.png – Chatbot Conversation (User queries and chatbot responses)
+
 ## ✍️ Author
 
 This project was created as part of an AI-based learning journey to explore how Natural Language Processing can be used in real-world applications like customer support chatbots.
@@ -90,5 +99,9 @@ This project was created as part of an AI-based learning journey to explore how 
 Developed by
 **Syeda Alia Samia**  
 GitHub:[Syeda Alia Samia](https://github.com/your-github-username)
+
+## 📄 License
+
+This project is licensed for educational and demonstration purposes only.
 
 
